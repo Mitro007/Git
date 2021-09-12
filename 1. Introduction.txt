@@ -1,0 +1,7 @@
+
+-> A GIT repository(.git folder) is a folder that is managed by GIT. 
+
+-> The Git repository itself is divided into two parts : the first part is called the “index”, and the second part is what we will 
+   refer to as the “object database”.
+
+-> GIT commands(git) and sub-commands(add, commit etc) are always lowercase.
