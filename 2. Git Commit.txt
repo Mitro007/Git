@@ -1,0 +1,24 @@
+
+-> git add <files> : to add untracked files
+
+-> git commit -m <message> : tracked file snapshots are created & stored.
+
+-> When we run 'git add <filename>' Git makes a copy of the file, and puts it in the index. We can think of the index as the 
+   “staging area”, wherein we can put things till we are sure we want to commit to them.
+
+-> Now when we run 'git commit' command, it takes the contents of the staging area and stores those in the object database, a.k.a 
+   Git’s memory bank. 
+
+-> Git only commits the files that were added to the index.   
+
+-> When we say we “committed” our changes to Git, what that translates into is that Git creates a 'commit object' that it stores 
+   inside the '.git' folder. This commit object is ‘stamped’ by a unique identifier (o/p of git commit command).
+
+-> The commit object does not actually store changes, well not directly anyway. Instead, Git stores changes in a different location 
+   in the Git repository, and simply records (in the commit) where changes have been stored.   
+
+-> Commit objects are stored by Git in binary format, making it very hard for humans to read, but super safe and efficient for Git.
+
+-> A pointer to the location inside the .git folder where Git has stored changes, is called a 'tree'.   
+
+-> 

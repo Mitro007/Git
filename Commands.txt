@@ -1,0 +1,21 @@
+
+Syntax : git <sub-command> <arguments>
+
+
+-> git init : to initialize a GIT repository (creates .git folder)
+
+-> git config --global user.name <user_name>
+
+-> git config --global user.email <user_email>
+
+-> git clone url : to clone the GIT repository
+
+-> git status
+
+-> git branches
+
+-> git add <files> : 
+
+-> git commit -m(--message) <commit_message>
+
+-> 
