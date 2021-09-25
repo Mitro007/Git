@@ -14,13 +14,17 @@ Syntax : git <sub-command> <arguments>
 
 -> git status : gives information about tracked files as well as untracked files.
 
--> git branche
-
 -> git add <files> : 
 
 -> git commit -m(--message) <commit_message>
 
 -> git log
+
+-> git branch : to list all the branches
+
+-> git branch <branch_name> : to create a new branch
+
+-> git switch <branch_name> : to switch to specified branch
 
 -> git branch -d <branch_name> : to delete a remote branch
 

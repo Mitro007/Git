@@ -1,0 +1,13 @@
+
+-> Branches allow to keep changes completely independent of one another.
+
+-> Git by default uses a branch called "master".
+
+-> We can't have "space" in branch name. However, hyphens, underscores and / are allowed.
+
+-> A branch always points to the last commit on that branch, which in turn points to its parent, and so on and so forth.
+
+-> A branch is simply a reference to a commit via its ID. This reference is updated every time we make another commit on that branch.
+
+-> Every time we switch branches, Git rewrites working directory to look like it did when we made the most recent commit on the branch we just switched to.
+
