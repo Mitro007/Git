@@ -5,17 +5,27 @@ Syntax : git <sub-command> <arguments>
 -> git init : to initialize a GIT repository (creates .git folder)
 
 -> git config --global user.name <user_name>
-
--> git config --global user.email <user_email>
+   git config --global user.email <user_email>
+   
+-> git config --local user.name <user_name>
+   git config --local user.email <user_email>
 
 -> git clone url : to clone the GIT repository
 
 -> git status
 
--> git branches
+-> git branche
 
 -> git add <files> : 
 
 -> git commit -m(--message) <commit_message>
 
--> 
+-> git log
+
+-> git branch -d <branch_name> : to delete a remote branch
+
+-> git branch -D <branch_name> : to delete a local branch
+
+-> git reflog
+
+-> git checkout
