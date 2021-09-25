@@ -8,4 +8,17 @@
 
 -> Any file that Git is watching for us is referred to as a “tracked” file.
 
--> 
+-> Once we commit, Git stores the contents of the index in it’s object database, and then marks the file as “Unmodified”.
+
+-> If we were to make a change to a file that we had previously commited, Git sees a difference between the file in the working directory and the 
+   index, but no difference between the index and the object database. So Git marks the file as “Modified” but it also marks it as “not staged” 
+   because we haven’t added it to the index yet. Next, if we were to add the modified file again to the index, Git sees that the index and the 
+   working directory are the same, so the file is marked as “staged”, or in other words, it is both modified and staged.
+
+-> For every commit that we make (other than the very first one in a repository) the commit also records the commit ID of the commit that came 
+   just before it. Child commits refer back to their parents, but parents do not refer to their children. In other words, the pointers are 
+   unidirectional. The Git commit history is often referred to as a 'directed acyclic graph', or DAG for short, wherein the commits form the 
+   “nodes” and the pointers to the parent form the “edges”. They are directed because children point to parent, and acyclic because parents do 
+   not point back to their children. 
+
+->    
