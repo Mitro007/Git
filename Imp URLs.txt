@@ -1,2 +1,4 @@
 
 -> Recover a deleted branch : https://stackoverflow.com/questions/4025916/git-undo-local-branch-delete
+
+-> Merge Conflicts : https://support.atlassian.com/bitbucket-cloud/docs/resolve-merge-conflicts/
