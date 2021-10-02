@@ -21,6 +21,8 @@
 
 -> A pointer to the location inside the .git folder where Git has stored changes, is called a 'tree'.   
 
--> When we make a commit, Git creates a "copy" of the files in the index and stores them in the object datastore. It also creates a commit object 
-   that records metadata about the commit, including a pointer to the files that were just stored, the author name and email, the time the commit 
-   was made, as well as the commit message.
+-> When we make a commit, Git creates a "copy" of the files in the index and stores them in the object datastore. It also creates a 
+   commit object that records metadata about the commit, including a pointer to the files that were just stored, the author name and 
+   email, the time the commit was made, as well as the commit message.
+
+-> Git commits build on previous commits.   

@@ -9,5 +9,8 @@
 
 -> A branch is simply a reference to a commit via its ID. This reference is updated every time we make another commit on that branch.
 
--> Every time we switch branches, Git rewrites working directory to look like it did when we made the most recent commit on the branch we just switched to.
+-> Every time we switch branches, Git rewrites working directory to look like it did when we made the most recent commit on the 
+   branch we just switched to.
+
+->    
 

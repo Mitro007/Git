@@ -33,3 +33,9 @@ Syntax : git <sub-command> <arguments>
 -> git reflog
 
 -> git checkout
+
+-> git <sub-command> --help / git help <sub-command> : documentation of specified sub-command
+
+-> git config --global core.editor "code -w" : use VS Code as default editor
+
+-> 

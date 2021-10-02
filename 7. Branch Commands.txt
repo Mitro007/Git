@@ -1,0 +1,13 @@
+
+* Syntax : git branch -<flags> <arguments>
+
+
+-> git branch : to print current branch
+
+-> git branch <new_branch_name> [existing_branch_name/commit_hash] :
+    => if 2nd argument is missing, then Git creates a branch from current branch
+    => Otherwise, Git creates a branch from specified branch/commit.
+
+-> git switch <branch_name> : to switch to specified branch
+
+-> 

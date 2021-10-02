@@ -1,0 +1,18 @@
+
+* Syntax : git merge <arguments>
+
+* Fast-forward Merge : In fast-forward merge, git simply moves the source branch pointer to the target branch pointer without 
+  creating an extra merge commit.
+
+* When we merge the two branches together, we are attempting to combine the work done after the common commit.    
+
+* A merge commit, on the other hand, has two parents : the first parent is the last commit on the branch that made the proposal 
+  (integration branch or main branch), and the second parent is the last commit from the “proposee” branch that was merged in.
+  Merge commits present a point in commit history where diverged branches come together.
+
+* Merge conflicts result when we attempt to bring together commits that affect the same files in different ways.
+
+
+-> git merge <branch_name> : merges the specified branch into the current branch
+
+->    
