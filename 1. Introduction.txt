@@ -5,3 +5,9 @@
    the “object database”.
 
 -> GIT commands(git) and sub-commands(add, commit etc) are always lowercase.
+
+-> Commit : The process of sending files from working directory(workspace) to local GIT repository.
+
+-> Push : The process of sending files from local GIT repository to remote GIT repository.
+
+-> Pull/Checkout : The process of sending files from remote GIT repository to working directory(workspace).
