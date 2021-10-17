@@ -14,6 +14,8 @@ Syntax : git <sub-command> <arguments>
 
 -> git status : gives information about tracked files as well as untracked files.
 
+-> git ls-files : print all tracked files
+
 -> git add <files> : 
 
 -> git commit -m(--message) <commit_message>
