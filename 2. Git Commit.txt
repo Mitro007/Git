@@ -25,4 +25,8 @@
    commit object that records metadata about the commit, including a pointer to the files that were just stored, the author name and 
    email, the time the commit was made, as well as the commit message.
 
--> Git commits build on previous commits.   
+-> Git commits build on previous commits.
+
+-> Comparing two commits :
+
+   (a). 

@@ -20,7 +20,14 @@ Syntax : git <sub-command> <arguments>
 
 -> git commit -m(--message) <commit_message>
 
--> git log
+-> git log : lists all the commits in the current branch, with the latest commit at the top, followed by its parent on the top, and so on.
+      Flags :
+         (a). abbrev-commit : displays enough characters to uniquely identify a commit
+         (b). pretty=oneline : to not display author and time
+         (c). --all : displays commit history of all the branches in the repository
+         (d). --graph : displays commit history as a graph (* -> commit, | -> pointer to parent commit, DAG -> Directed Acyclic Graph)
+         (e). 
+
 
 -> git branch : to list all the branches
 
@@ -40,4 +47,8 @@ Syntax : git <sub-command> <arguments>
 
 -> git config --global core.editor "code -w" : use VS Code as default editor
 
--> 
+-> git diff : compares the version that Git has in its index with the version of the file in the working directory i.e by default
+   Git compares the Index with the working directory
+      
+      Flags :
+         (a).  
