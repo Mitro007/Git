@@ -4,6 +4,10 @@ Syntax : git <sub-command> <arguments>
 
 -> git init : to initialize a GIT repository (creates .git folder)
 
+-> git config --list : to list all defined configurations
+      -> git config user.name : prints username
+      -> git config user.email : prints email id
+
 -> git config --global user.name <user_name>
    git config --global user.email <user_email>
    
