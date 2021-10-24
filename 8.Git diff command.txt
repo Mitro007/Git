@@ -1,0 +1,7 @@
+
+-> By default, running 'git diff' in a repository compares the version that Git has in its 'index' with the version of the file in the 
+   working directory.
+
+-> 'git diff' displays only the parts of the file that have changed(hunks).
+
+-> 

@@ -37,14 +37,10 @@ Syntax : git <sub-command> <arguments>
 
 
 -> git branch : to list all the branches
-
--> git branch <branch_name> : to create a new branch
-
--> git switch <branch_name> : to switch to specified branch
-
--> git branch -d <branch_name> : to delete a remote branch
-
--> git branch -D <branch_name> : to delete a local branch
+      git branch <branch_name> : to create a new branch
+      git branch -D <branch_name> : to delete a local branch
+      git switch <branch_name> : to switch to specified branch
+      git branch -d <branch_name> : to delete a remote branch
 
 -> git reflog
 
@@ -54,8 +50,8 @@ Syntax : git <sub-command> <arguments>
 
 -> git config --global core.editor "code -w" : use VS Code as default editor
 
--> git diff : compares the version that Git has in its index with the version of the file in the working directory i.e by default
-   Git compares the Index with the working directory
+-> git diff : compares the version that Git has in its index with the version of the file in the working directory i.e by default Git 
+   compares the Index with the working directory.
       
       Flags :
-         (a).  
+         (a). --cached : to compare index and the local repository
