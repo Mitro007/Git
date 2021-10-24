@@ -55,3 +55,5 @@ Syntax : git <sub-command> <arguments>
       
       Flags :
          (a). --cached : to compare index and the local repository
+
+      git diff <branch_name_1> <branch_name_2> : to compare two branches   
