@@ -25,12 +25,15 @@ Syntax : git <sub-command> <arguments>
 -> git commit -m(--message) <commit_message>
 
 -> git log : lists all the commits in the current branch, with the latest commit at the top, followed by its parent on the top, and so on.
+      
       Flags :
          (a). abbrev-commit : displays enough characters to uniquely identify a commit
          (b). pretty=oneline : to not display author and time
          (c). --all : displays commit history of all the branches in the repository
          (d). --graph : displays commit history as a graph (* -> commit, | -> pointer to parent commit, DAG -> Directed Acyclic Graph)
          (e). 
+      
+      git log <file_name> : to display commit history of specified file    
 
 
 -> git branch : to list all the branches
