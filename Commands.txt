@@ -54,6 +54,9 @@ Syntax : git <sub-command> <arguments>
    compares the Index with the working directory.
       
       Flags :
-         (a). --cached : to compare index and the local repository
+         (a). --cached/--staged : to compare index and the local repository
 
-      git diff <branch_name_1> <branch_name_2> : to compare two branches   
+      git diff <file_name> : compare specified file in index & working directory   
+      git diff <branch_name_1> <branch_name_2> : to compare two branches  
+      git diff <commit_id_1> <commit_id_2> : to compare two commits 
+
