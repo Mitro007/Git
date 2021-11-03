@@ -1,0 +1,16 @@
+
+-> Git References : pointers to commit Ids
+
+-> References are stored in '.git/refs' directory.
+
+-> 'master' is name of the branch.
+
+-> HEAD is a Symbolic reference. If a reference points to another reference, then that reference is referred to as Symbolic reference.
+
+-> By default, HEAD always points to branch name(latest commit).
+
+-> HEAD can also point to another commit other than the latest one. In such cases, it is referred to as 'Detached HEAD'.
+
+-> master info : .git/refs/heads/master
+
+-> HEAD info : .git/HEAD

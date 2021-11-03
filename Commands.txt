@@ -44,7 +44,10 @@ Syntax : git <sub-command> <arguments>
 
 -> git reflog
 
--> git checkout
+-> git checkout : idsplays names of files that contain unstaged changes
+
+      git checkout . : discard unstaged changes in all the tracked files
+      git checkout -- <file_name> : to discard 'unstaged changes' in specified 'tracked file'
 
 -> git <sub-command> --help / git help <sub-command> : documentation of specified sub-command
 
@@ -60,3 +63,6 @@ Syntax : git <sub-command> <arguments>
       git diff <branch_name_1> <branch_name_2> : to compare two branches  
       git diff <commit_id_1> <commit_id_2> : to compare two commits 
 
+-> git show <commit_id> : 'information about'/'contents of' the specified commit
+
+      git show HEAD~2 : contents of 3rd last commit

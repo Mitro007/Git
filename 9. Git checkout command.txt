@@ -1,0 +1,6 @@
+
+-> checkout <=> to discard unstaged changes in the 'tracked files' of working directory
+
+-> Git replaces file(s) in the working directory with the file(s) from Staging area.
+
+-> 

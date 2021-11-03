@@ -5,5 +5,5 @@
 -> 'git diff' displays only the parts of the file that have changed(hunks).
 
 -> The git diff command is always comparing two sets of changes, that can be visualized by a venn diagram. The first argument is the set 
-   on the left (always indicated by“a/”) and prefixed with a minus (“-”). The second argument is the set of the right, indicated by“b/”, 
+   on the left (always indicated by“a/”) and prefixed with a minus (“-”). The second argument is the set of the right, indicated by “b/”, 
    and prefixed with a“+”.
