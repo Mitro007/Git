@@ -66,3 +66,13 @@ Syntax : git <sub-command> <arguments>
 -> git show <commit_id> : 'information about'/'contents of' the specified commit
 
       git show HEAD~2 : contents of 3rd last commit
+
+-> git reset :
+
+			git reset <file_name> : to move specified file from Staging area to unstaged(working directory)
+			git reset <mode> <commit_id> : HEAD points to specified commit & all commits after this are deleted from local repository
+
+      Flags/Mode :
+      	(a). --mixed : It is the default mode. Removes specified commit_id changes from Local repository & Staging area
+				(b). --soft : Removes specified commit_id changes only from Local repository
+				(c). --hard : Removes specified commit_id changes from Local repository, Staging area, and Working directory    

@@ -1,0 +1,10 @@
+
+-> Uses of reset command :
+
+    (a). to remove changes from Staging area (reverse of git add command)
+    (b). discard/undo commits from Loacal Repository
+
+-> Whenever we make a commit, one copy is present in Staging area & one copy is present in working directory. In other words,
+   contents of a commit are present in 3 locations : Working directory, Staging area, and Object database.
+
+->        
