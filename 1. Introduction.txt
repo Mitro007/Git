@@ -11,3 +11,5 @@
 -> Push : The process of sending files from local GIT repository to remote GIT repository.
 
 -> Pull/Checkout : The process of sending files from remote GIT repository to working directory(workspace).
+
+-> Tracked files : files that have been added to Staging area
