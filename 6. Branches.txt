@@ -12,5 +12,6 @@
 -> Every time we switch branches, Git rewrites working directory to look like it did when we made the most recent commit on the 
    branch we just switched to.
 
-->    
+-> When we delete a brach, only pointer is lost (pointer to latest commit/branch_name). Commits are not lost because if they 
+   have been merged, they are required because every commit has a link to its parent commit.   
 
