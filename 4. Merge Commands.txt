@@ -2,7 +2,9 @@
 * Syntax : git merge <arguments>
 
 * Fast-forward Merge : In fast-forward merge, git simply moves the source branch pointer to the target branch pointer without 
-  creating an extra merge commit.
+  creating an extra merge commit. Merge conflict will never arise in this merge.
+
+* Three-way Merge : Merge conflict may arise in this merge.  
 
 * When we merge the two branches together, we are attempting to combine the work done after the common commit.    
 
