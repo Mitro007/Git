@@ -78,3 +78,21 @@ Syntax : git <sub-command> <arguments>
         (a). --mixed : It is the default mode. Removes specified commit_id changes from Local repository & Staging area
         (b). --soft : Removes specified commit_id changes only from Local repository
         (c). --hard : Removes specified commit_id changes from Local repository, Staging area, and Working directory    
+
+-> git stash : unstaged changes are stored in a secret location (as a commit inside .git/ref/stash folder)
+
+-> git stash list : list all stashed changes (stash_id => stash@{0}, stash@{1}, .....)
+
+-> git show <stash_id> : displays the content of specifed stash
+
+-> git stash apply <stash_id> : adds changes in specifed stash_id to staging area & corresponding stash entry won't be deleted
+   from stash collection, hence can be used again & again
+
+-> git stash pop <stash_id> : adds changes in mentioned stash_id to working directory & removes mentioned stash from stashes 
+   collection
+
+-> git stash -p 
+
+-> git stash clear : to delete all available stashes
+
+-> git stash drop <stash_id> : deletes mentiond stash

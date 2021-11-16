@@ -1,0 +1,17 @@
+
+Pre-requissites :
+-> applicable only for tracked files because GIT is not aware of untracked files(new files)
+-> at least one commit must be present
+
+##############################################################################################################################
+
+-> Stashes are stored in .git/ref/stash folder.
+
+
+Partial Stash :
+
+-> By default, when we use git stash command, GIT stashes all unstaged changes.
+
+-> Partial stash allows us to stash specified file(s) changes to stash area.
+
+
