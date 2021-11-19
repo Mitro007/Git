@@ -1,0 +1,17 @@
+
+-> git remote add <alias_name> <remote_repo_url>
+
+-> git push [remote_repo_name] [branch_name]
+
+    - default name of remote_repository is 'origin'
+    - default name of branch is 'master'/current_branch
+
+-> clone => copy
+
+-> git clone <url> : copies files & commit history of remote repository to local repository
+
+-> git fetch : to check whether updates are available or not in remote repository
+
+-> git pull does git fetch as well.
+
+-> 
