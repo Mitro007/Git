@@ -26,6 +26,8 @@ Syntax : git <sub-command> <arguments>
 
 -> git commit -m(--message) <commit_message>
 
+-> git commit -am <commit_message> : for tracked files this command is enough to make a commit
+
 -> git log : lists all the commits in the current branch, with the latest commit at the top, followed by its parent on the top, and so on.
       
     Flags :
@@ -102,3 +104,7 @@ Syntax : git <sub-command> <arguments>
 -> git fetch : to check whether updates are available or not in remote repository
 
 -> git pull : merges the updates present in remote repository to local repository
+
+-> git revert <commit_id> : Git creates a new commit containing the contents of the parent commit of mentioned commit.
+
+-> git cherry-pick <commit_id> : 

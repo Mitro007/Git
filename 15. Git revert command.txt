@@ -1,0 +1,10 @@
+
+-> alternatinve to 'git reset' command
+
+-> 'reset' command deletes commits & hence alters commit history.
+
+-> 'revert' command doesn't delete a commit. Instead it creates a new commit containing the contents of the previous commit of mentioned commit.
+
+-> Hence commit history is not affected.
+
+-> 
