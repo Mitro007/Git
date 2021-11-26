@@ -101,7 +101,11 @@ Syntax : git <sub-command> <arguments>
 
 -> git clone <url> : copies files & commit history of remote repository to local repository
 
--> git fetch : to check whether updates are available or not in remote repository
+-> git fetch : to check whether updates are available or not in remote repository & syncs local Git repository with remote Git repository
+   (e.g. whenever we create a remote branch, our local Git repository won't be aware of it & switching to that remote brance will error out. So we first need
+    to sync out local Git repo & remot Git repo by running command 'git fetch' & then change/switch to that branch
+      git fetch && fit checkout <branch_name>
+   )
 
 -> git pull : merges the updates present in remote repository to local repository
 
