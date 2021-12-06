@@ -1,4 +1,7 @@
 
+-> https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud
+
+
 -> Recover a deleted branch : https://stackoverflow.com/questions/4025916/git-undo-local-branch-delete
 
 -> Merge Conflicts : https://support.atlassian.com/bitbucket-cloud/docs/resolve-merge-conflicts/
@@ -8,3 +11,5 @@
 -> https://stackoverflow.com/questions/11868447/how-can-i-remove-an-entry-in-global-configuration-with-git-config
 
 -> https://stackoverflow.com/questions/62653114/how-to-deal-with-this-git-warning-pulling-without-specifying-how-to-reconcile
+
+
